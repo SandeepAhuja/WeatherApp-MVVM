@@ -1,13 +1,13 @@
                                                Weather App
 # Overview                                
                     
-## This sample code builds a weather app that displays a simple five-day weather forecast using a horizontally paging collection view. Each collection view cell contains a label showing the day the forecast applies to, a label describing temperature it. 
+This sample code builds a weather app that displays a simple five-day weather forecast using a horizontally paging collection view. Each collection view cell contains a label showing the day the forecast applies to, a label describing temperature it. 
 
 # Scope:
 
-## By considering the scope of this demo project. I have used Model-View-Controller pattern with solid principles and View-model. For that, we segregated the responsibility among various layers and their components to make this code more adaptive to change and testable. Assuming the team size and duration of discussed project, we can go with MVC+ViewModel with solid principles to deliver it within timelines and quality.
+By considering the scope of this demo project. I have used Model-View-Controller pattern with solid principles and View-model. For that, we segregated the responsibility among various layers and their components to make this code more adaptive to change and testable. Assuming the team size and duration of discussed project, we can go with MVC+ViewModel with solid principles to deliver it within timelines and quality.
 
-## Note: For a mid size and big-project, we can go for application of Clean architecture. 
+# Note: For a mid size and big-project, we can go for application of Clean architecture. 
 
 ## This sample project consists of three targets:
 
@@ -17,7 +17,7 @@
 # Layers
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Business Layer
+## Data Model
 
 We are using Codable protocol to map JSON from weather API to model layer.  
 
